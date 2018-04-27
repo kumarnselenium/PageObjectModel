@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SouthWest-EndUser App">
+     <!-- <test name = "SouthWest Home Page">-->
+  	<test name="SouthWest" parallel="classes" thread-count="3"> 
+    <parameter name="UserName" value="DC"/>
+    <parameter name="Password" value="kumar"/>
+      <classes>
+         <class name = "com.southwest.www.E2ETests.TS1_NegativeLogin"/>
+         <class name = "com.southwest.www.E2ETests.TS2_Enroolment"/>
+          <class name = "com.southwest.www.E2ETests.TS3_FlightSearch"/>
+      </classes>
+   </test>
+</suite>	

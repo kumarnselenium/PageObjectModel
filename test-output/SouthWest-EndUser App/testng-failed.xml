@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SouthWest-EndUser App]">
+  <parameter name="UserName" value="DC"/>
+  <parameter name="Password" value="kumar"/>
+  <test name="SouthWest Home Page(failed)">
+    <parameter name="UserName" value="DC"/>
+    <parameter name="Password" value="kumar"/>
+    <classes>
+      <class name="com.southwest.www.E2ETests.TS1_NegativeLogin">
+        <methods>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.southwest.www.E2ETests.TS1_NegativeLogin -->
+      <class name="com.southwest.www.E2ETests.TS3_FlightSearch">
+        <methods>
+          <include name="testFlightSearch"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.southwest.www.E2ETests.TS3_FlightSearch -->
+      <class name="com.southwest.www.E2ETests.TS2_Enroolment">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.southwest.www.E2ETests.TS2_Enroolment -->
+    </classes>
+  </test> <!-- SouthWest Home Page(failed) -->
+</suite> <!-- Failed suite [SouthWest-EndUser App] -->

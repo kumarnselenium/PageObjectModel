@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SouthWest-EndUser App" duration-ms="21003" started-at="2018-02-03T03:05:39Z" finished-at="2018-02-03T03:06:00Z">
+    <groups>
+    </groups>
+    <test name="SouthWest" duration-ms="21003" started-at="2018-02-03T03:05:39Z" finished-at="2018-02-03T03:06:00Z">
+      <class name="com.southwest.www.E2ETests.TS2_Enroolment">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.southwest.www.E2ETests.TS2_Enroolment@5c3bd550]" name="openApp" is-config="true" duration-ms="9742" started-at="2018-02-02T22:05:39Z" finished-at="2018-02-02T22:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testEnrollment()[pri:0, instance:com.southwest.www.E2ETests.TS2_Enroolment@5c3bd550]" name="testEnrollment" duration-ms="4651" started-at="2018-02-02T22:05:49Z" finished-at="2018-02-02T22:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnrollment -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.southwest.www.E2ETests.TS2_Enroolment@5c3bd550]" name="closeApp" is-config="true" duration-ms="102" started-at="2018-02-02T22:05:54Z" finished-at="2018-02-02T22:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.southwest.www.E2ETests.TS2_Enroolment -->
+      <class name="com.southwest.www.E2ETests.TS3_FlightSearch">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.southwest.www.E2ETests.TS3_FlightSearch@5e3a8624]" name="openApp" is-config="true" duration-ms="14829" started-at="2018-02-02T22:05:39Z" finished-at="2018-02-02T22:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testFlightSearch()[pri:0, instance:com.southwest.www.E2ETests.TS3_FlightSearch@5e3a8624]" name="testFlightSearch" duration-ms="5962" started-at="2018-02-02T22:05:54Z" finished-at="2018-02-02T22:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSearch -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.southwest.www.E2ETests.TS3_FlightSearch@5e3a8624]" name="closeApp" is-config="true" duration-ms="184" started-at="2018-02-02T22:06:00Z" finished-at="2018-02-02T22:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.southwest.www.E2ETests.TS3_FlightSearch -->
+      <class name="com.southwest.www.E2ETests.TS1_NegativeLogin">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.southwest.www.E2ETests.TS1_NegativeLogin@26653222]" name="openApp" is-config="true" duration-ms="10277" started-at="2018-02-02T22:05:39Z" finished-at="2018-02-02T22:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.southwest.www.E2ETests.TS1_NegativeLogin@26653222]" name="testLogin" duration-ms="4305" started-at="2018-02-02T22:05:50Z" finished-at="2018-02-02T22:05:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.southwest.www.E2ETests.TS1_NegativeLogin@26653222]" name="closeApp" is-config="true" duration-ms="121" started-at="2018-02-02T22:05:54Z" finished-at="2018-02-02T22:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.southwest.www.E2ETests.TS1_NegativeLogin -->
+    </test> <!-- SouthWest -->
+  </suite> <!-- SouthWest-EndUser App -->
+</testng-results>
